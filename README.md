@@ -54,29 +54,24 @@ El repositorio está organizado de la siguiente manera:
 
 1. **KPI 1: Aumento del acceso a internet por cada 100 hogares.**
    - **Descripción:** Mide si el acceso a internet crece un 2% trimestre a trimestre por provincia.
+  
    - **Fórmula:** 
-     \[
-     \text{KPI} = \left( \frac{\text{Nuevo acceso} - \text{Acceso actual}}{\text{Acceso actual}} \right) \times 100
-     \]
 
-   - - **Fórmula:** 
-    $$
-    \text{KPI} = \left( \frac{\text{Nuevo acceso} - \text{Acceso actual}}{\text{Acceso actual}} \right) \times 100
-    $$
-
-
-   - **Fórmula:** 
-      $\text{KPI} = \left( \frac{\text{Nuevo acceso} - \text{Acceso actual}}{\text{Acceso actual}} \right) \times 100$
+       $\text{KPI} = \left( \frac{\text{Nuevo acceso} - \text{Acceso actual}}{\text{Acceso actual}} \right) \times 100$
 
 
    - **Visualización:** Medidor en Power BI para comparar el incremento esperado vs. el real.
 
-1. **KPI 2: Crecimiento absoluto en accesos de fibra óptica.**
+2. **KPI 2: Crecimiento absoluto en accesos de fibra óptica.**
    - **Descripción:** Evalúa el crecimiento trimestral de accesos de fibra óptica en números absolutos.
    - **Fórmula:** 
      \[
-     \text{KPI Fibra Óptica} = \left( \frac{\text{Accesos actuales} - \text{Accesos previos}}{\text{Accesos previos}} \right) \times 100
+     $\text{KPI Fibra Óptica} = \left( \frac{\text{Accesos actuales} - \text{Accesos previos}}{\text{Accesos previos}} \right) \times 100$
      \]
+    
+   
+
+
    - **Visualización:** Gráfico de barras comparando periodos.
 
 2. **KPI 3: Incremento en la penetración de fibra óptica.**
