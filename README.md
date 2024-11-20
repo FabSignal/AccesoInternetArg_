@@ -20,30 +20,33 @@ El trabajo incluye:
 
 ## **Estructura del repositorio**
 
-El repositorio está organizado en las siguientes carpetas y archivos:
+El repositorio está organizado de la siguiente manera:
 
-### **1. `eda_telecomunicaciones.ipynb`**
- Notebook donde se realiza el Análisis Exploratorio de Datos (EDA). Incluye:
-  - Limpieza de datos: tratamiento de valores nulos y duplicados.
-  - Identificación de patrones y tendencias.
-  - Visualización de datos para comprender el comportamiento del sector.
+### **1. Notebooks**
+- 'eda_telecomunicaciones.ipynb': Jupyter Notebook que incluye:
+  - **Análisis Exploratorio de Datos (EDA)**:
+    - Limpieza de datos: tratamiento de valores nulos y duplicados.
+    - Identificación de patrones y tendencias en los datos.
+    - Visualización de datos para comprender el comportamiento del sector.
+  - **Cálculo de KPIs**:
+    - Función para calcular el KPI de aumento en accesos por cada 100 hogares.
+    - Función para calcular el KPI de crecimiento absoluto en accesos de fibra óptica.
+    - Función para calcular el KPI de incremento en la penetración de fibra óptica.
+  - **Reporte**: Resumen de los hallazgos, conclusiones y recomendaciones derivadas del análisis.
 
-#### **KPIs**
--  Función para calcular el KPI de aumento en accesos por cada 100 hogares.
--  Función para calcular el KPI de crecimiento absoluto en accesos de fibra óptica.
--  Función para calcular el KPI de incremento en la penetración de fibra óptica.
+### **2. Datos**
+- 'datos_enacom': Dataset utilizado para el análisis, que incluye información sobre accesos por tecnología, provincias y periodos.
+- 'diccionario_datos': Documento que explica las columnas del dataset.
 
-
-
-### **2. Dashboard**
-- `dashboard.pbix`: Archivo del dashboard interactivo creado en Power BI, que incluye:
+### **3. Dashboard**
+- 'dashboard.pbix': Archivo del dashboard interactivo creado en Power BI, que incluye:
   - Representaciones gráficas de los KPIs.
   - Filtros interactivos para explorar los datos por provincia, trimestre y tecnología.
   - Medidores para visualizar dinámicamente el cumplimiento de los KPIs.
 
-### **3. Datos**
-- `datos_telecom.csv`: Dataset utilizado para el análisis, que incluye información sobre accesos por tecnología, provincias, y periodos.
-- `diccionario_datos.md`: Documento que explica las columnas del dataset.
+### **4. Documentación**
+- 'README.md': Este archivo, que describe la estructura y propósito del repositorio.
+
 
 ---
 
@@ -79,7 +82,7 @@ El repositorio está organizado en las siguientes carpetas y archivos:
 
 ### **1. Requisitos**
 - Python 3.8 o superior.
-- Librerías necesarias: `pandas`, `numpy`, `matplotlib`, `seaborn`, `jupyter`.
+- Librerías necesarias: 'pandas', 'numpy', 'matplotlib', 'seaborn', 'jupyter'.
 - Power BI Desktop para visualizar el dashboard.
 
 ### **2. Ejecución**
@@ -90,5 +93,5 @@ El repositorio está organizado en las siguientes carpetas y archivos:
 --- 
 ## Fuente de datos
 
-- [Datasets principales](https://indicadores.enacom.gob.ar/datos-abiertos) -Obligatorio: Internet-
+- [Enacom](https://indicadores.enacom.gob.ar/datos-abiertos) 
 - [Diccionario de datos](https://docs.google.com/document/d/1BYW0vT_DNIjjKM9v4hNg5KmqjRNOc7OBB1jCXc80gnI/edit#heading=h.hjukififf3ol)
