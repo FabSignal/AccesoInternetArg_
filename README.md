@@ -65,21 +65,23 @@ El repositorio está organizado de la siguiente manera:
 2. **KPI 2: Crecimiento absoluto en accesos de fibra óptica.**
    - **Descripción:** Evalúa el crecimiento trimestral de accesos de fibra óptica en números absolutos.
    - **Fórmula:** 
-     \[
+     
      $\text{KPI Fibra Óptica} = \left( \frac{\text{Accesos actuales} - \text{Accesos previos}}{\text{Accesos previos}} \right) \times 100$
-     \]
+     
     
    
 
 
    - **Visualización:** Gráfico de barras comparando periodos.
 
-2. **KPI 3: Incremento en la penetración de fibra óptica.**
+3. **KPI 3: Incremento en la penetración de fibra óptica.**
    - **Descripción:** Analiza el crecimiento relativo de la penetración de fibra óptica respecto al total de tecnologías.
    - **Fórmula:** 
-     \[
-     \text{KPI Penetración} = \left( \frac{\text{Penetración actual} - \text{Penetración referencia}}{\text{Penetración referencia}} \right) \times 100
-     \]
+
+   
+    $\text{KPI Penetración} = \left( \frac{\text{Penetración actual} - \text{Penetración referencia}}{\text{Penetración referencia}} \right) \times 100$
+
+
    - **Visualización:** Medidor en Power BI.
 
 ---
