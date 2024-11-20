@@ -79,7 +79,7 @@ El repositorio está organizado de la siguiente manera:
    - **Fórmula:** 
 
    
-    $\text{KPI Penetración} = \left( \frac{\text{Penetración actual} - \text{Penetración referencia}}{\text{Penetración referencia}} \right) \times 100$
+     $\text{KPI Penetración} = \left( \frac{\text{Penetración actual} - \text{Penetración referencia}}{\text{Penetración referencia}} \right) \times 100$
 
 
    - **Visualización:** Medidor en Power BI.
