@@ -4,9 +4,9 @@ Este proyecto realiza un análisis del sector de telecomunicaciones en Argentina
 
 ---
 
-## ** Descripción del proyecto **
+## **Descripción del proyecto**
 
-### ** Contexto **
+### **Contexto**
 El sector de telecomunicaciones en Argentina ha demostrado ser fundamental para la conectividad y el desarrollo tecnológico. En este proyecto,
 asumimos el rol de analista de datos para una empresa de telecomunicaciones que busca identificar oportunidades de crecimiento, 
 mejorar la calidad del servicio y brindar soluciones personalizadas a sus clientes.
@@ -18,36 +18,36 @@ El trabajo incluye:
 
 ---
 
-## ** Estructura del repositorio **
+## **Estructura del repositorio**
 
 El repositorio está organizado en las siguientes carpetas y archivos:
 
-### ** 1. `eda_telecomunicaciones.ipynb` **
+### **1. `eda_telecomunicaciones.ipynb`**
  Notebook donde se realiza el Análisis Exploratorio de Datos (EDA). Incluye:
   - Limpieza de datos: tratamiento de valores nulos y duplicados.
   - Identificación de patrones y tendencias.
   - Visualización de datos para comprender el comportamiento del sector.
 
-#### ** KPIs **
+#### **KPIs**
 -  Función para calcular el KPI de aumento en accesos por cada 100 hogares.
 -  Función para calcular el KPI de crecimiento absoluto en accesos de fibra óptica.
 -  Función para calcular el KPI de incremento en la penetración de fibra óptica.
 
 
 
-### ** 2. Dashboard **
+### **2. Dashboard**
 - `dashboard.pbix`: Archivo del dashboard interactivo creado en Power BI, que incluye:
   - Representaciones gráficas de los KPIs.
   - Filtros interactivos para explorar los datos por provincia, trimestre y tecnología.
   - Medidores para visualizar dinámicamente el cumplimiento de los KPIs.
 
-### ** 3. Datos **
+### **3. Datos**
 - `datos_telecom.csv`: Dataset utilizado para el análisis, que incluye información sobre accesos por tecnología, provincias, y periodos.
 - `diccionario_datos.md`: Documento que explica las columnas del dataset.
 
 ---
 
-## ** KPIs del proyecto **
+## **KPIs del proyecto**
 
 1. **KPI 1: Aumento del acceso a internet por cada 100 hogares.**
    - **Descripción:** Mide si el acceso a internet crece un 2% trimestre a trimestre por provincia.
@@ -75,14 +75,14 @@ El repositorio está organizado en las siguientes carpetas y archivos:
 
 ---
 
-## ** Cómo ejecutar el proyecto **
+## **Cómo ejecutar el proyecto**
 
-### ** 1. Requisitos **
+### **1. Requisitos**
 - Python 3.8 o superior.
 - Librerías necesarias: `pandas`, `numpy`, `matplotlib`, `seaborn`, `jupyter`.
 - Power BI Desktop para visualizar el dashboard.
 
-### ** 2. Ejecución **
+### **2. Ejecución**
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/tu-usuario/analisis-telecomunicaciones.git
