@@ -59,6 +59,12 @@ El repositorio está organizado de la siguiente manera:
      \text{KPI} = \left( \frac{\text{Nuevo acceso} - \text{Acceso actual}}{\text{Acceso actual}} \right) \times 100
      \]
 
+   - - **Fórmula:** 
+    $$
+    \text{KPI} = \left( \frac{\text{Nuevo acceso} - \text{Acceso actual}}{\text{Acceso actual}} \right) \times 100
+    $$
+
+
    - **Fórmula:** 
       $\text{KPI} = \left( \frac{\text{Nuevo acceso} - \text{Acceso actual}}{\text{Acceso actual}} \right) \times 100$
 
